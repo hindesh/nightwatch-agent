@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from agent import Agent
 from llm_factory import get_llm
+import pandas
 
 # .env loading is a must
 load_dotenv()
